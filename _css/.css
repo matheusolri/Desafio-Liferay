@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body {
+    background-image: url(https://i.pinimg.com/originals/38/36/5a/38365a5919a84a84fc034e266017907a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+div#glasseffect {
+    
+    float: left;
+    width: 500px;
+    height: 400px; 
+    margin-left: 300pt;
+    margin-top: 100pt;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+div#botoes{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+   font-size: 25px;
+   font-style: "arial";
+   color:white;
+   font-weight: bold;
+
+
+}
+input[type=text] {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 70pt;
+
+
+}
+button{
+    border-radius: 15px;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(78, 58, 28);
+    color: white;
+}
